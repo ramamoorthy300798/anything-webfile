@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./css/icofont.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+
+
+    <section id="contact">
+        <div class="contact">
+            <div class="header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="logo-hdr">
+                                <a href="#">
+                                <img src="./images/logo-hdr-img.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="sign-btn-hdr">
+                                <a href="#" class="signup">Partner Signup</a>
+                                <a href="#" class="icon-call"><i class="icofont-ui-call"></i>0800 410 1515</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cnt-title">
+                <h1>Contact Us</h1>
+                <p>Contact Anything for Hire. Contact details, FAQ’s and support for customers and hire companies. Get in touch with us with all your enquiries.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact-file">
+        <div class="contact-file">
+            <div class="container">
+                <div class="row">
+                    <h2>Get in touch</h2>               
+                        <div class="forms d-flex">
+                            <div class="col-md-6">
+                                <div class="form-boxes">
+                                    <div class="col-md-12">
+                                        <h1>Contact</h1>
+                                    </div>
+                                    <div id="error_message"></div>
+                                    <form id="myform" class="myform"  onsubmit="return validate();">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label for="firstname" class="form-label">First Name</label>
+                                            <input type="text" class="form-control required" id="firstname" placeholder="First name" name="firstname">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="lastname" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control required" id="lastname" placeholder="Last name" name="lastname">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control required" id="email" name="email" placeholder="Email">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                                                <input type="Number" class="form-control required" id="phonenumber" name="phonenumber" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <label for="subject" class="form-label">Subject</label>
+                                                <select class="form-select required" id="subject" name="subject">
+                                                <option selected>Select</option>
+                                                <option value="1">Hire Enquiries</option>
+                                                <option value="2">Customer Services</option>
+                                                <option value="3">Partner queries</option>
+                                                <option value="4">Login Issues</option>
+                                                <option value="5">Jobs</option>
+                                                <option value="6">Others</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <label for="txtmessage" class="form-label">Message</label>
+                                                <textarea  class="form-control required" id="txtmessage" name="txtmessage" placeholder="Message"> </textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <button type="submit" class="btn btn-primary">SUBMIT</button>
+                                        </div>
+        
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-content">
+                                    <div class="ph-no">
+                                        <h4>Phone Number</h4>
+                                        <p>0800 410 1515</p>
+                                    </div>
+                                    <div class="mail">
+                                        <h4>Email</h4>
+                                        <p>contact@anythingforhire.com</p>
+                                    </div>
+                                    <div class="hire-com">
+                                        <h4>OWN A HIRE COMPANY?</h4>
+                                        <a href="#">Click here to join our network</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faqs">
+        <div class="faqs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="faq-title">
+                            <h2>FAQs about Hire Services</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-box-1">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <option selected><h4> Do you offer any other hire services other than what's listed on your website?   </h4> </option>
+                                <option value="1"><p>We are always looking to expand into more hire services. If you would like to suggest a service, please contact us.</p></option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-box-1">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <option selected><h4>Do you have a mobile app?</h4></option>
+                                <option value="1"><p>We only have apps for our providers. They use the apps to manage all the bookings we pass to them. The Anything for Hire Partner App is available in iOS and Android, we also have a desktop option for our partners. We do not have a customer app at the moment.</p></option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-box-1">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <option selected><h4>How do I speak to the actual provider?</h4></option>
+                                <option value="1"><p>Once your booking is all confirmed, we will share all the details. This is usually straight after you've made the deposit payment.</p></option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-box-1">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <option selected><h4>Why should I book with anythingforhire.com instead of going direct?</h4></option>
+                                <option value="1"><p>When booking with us, we compare various prices and suitable options for your booking. We save a lot of time and hassle. Plus we offer a great service :)</p></option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-box-1">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <option selected><h4>How can I make changes to my booking?</h4></option>
+                                <option value="1"><p>We have a dedicated customer services team for your booking. You can reach out to our team and discuss changes and amendments. Please refer to our terms and conditions before requesting any changes.</p></option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="faq-box-1">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <option selected><h4>Do you offer deals for multiple hire services?</h4></option>
+                                <option value="1"><p>Yes, of course. We are always happy to offer discounts for multiple hire services. </p>  </option>
+                              </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="customer">
+                            <h4>FOR CUSTOMERS</h4>
+                            <ul>
+                                <li><a href="#">Get a Quote</a></li>
+                                <li><a href="#">Already had a quote?</a></li>
+                                <li><a href="#">Blogs & News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="partners">
+                            <h4>FOR PARTNERS</h4>
+                            <ul>
+                                <li><a href="#">Sign up</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">How it works</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="stuff">
+                            <h4>LEGAL STUFF</h4>
+                            <ul>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="services">
+                            <h4>POPULAR SERVICES</h4>
+                            <ul>
+                                <li><a href="#">Limo Hire</a></li>
+                                <li><a href="#">Wedding Car Hire</a></li>
+                                <li><a href="#">Coach & Bus Hire</a></li>
+                                <li><a href="#">Party Bus Hire</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="getus">
+                            <h4>GET IN TOUCH</h4>
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">About us</a></li>
+                            </ul>
+                            <div class="icon-box">
+                            <i class="icofont-facebook"></i>
+                            <i class="icofont-twitter"></i>
+                            <i class="icofont-instagram"></i>
+                            <i class="icofont-linkedin"></i>
+                            <i class="icofont-youtube-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="copyright">
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/logo-hdr-img.svg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <p>©2021 Copyright Anything for Hire. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
